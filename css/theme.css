@@ -1,0 +1,53 @@
+/*
+    Fonts definition
+*/
+@font-face {
+    font-family: "lato";
+    src: url("fonts/Lato-Regular.woff2") format("woff2"),
+         url("fonts/Lato-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+    HTML components style
+*/
+body{
+    font-family: 'lato';
+    text-align: justify;
+    width: 100%;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+
+#header{
+    width: min-content;
+    text-align: center;
+}
+
+h1{
+    font-size: 162px;
+    font-weight: normal;
+    letter-spacing: 100px;
+    color: #ffc600;
+    border-bottom: solid 8px #ffc600;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: white;
+    font-size: 28px;
+}
+
+#header{
+    margin: auto;
+}
+
+#content{
+    display: inline-block;
+}
+
+.whiteBox{
+    color: white;
+    width: 30%;
+}
