@@ -16,13 +16,14 @@ body{
     font-family: 'lato';
     text-align: justify;
     width: 100%;
-    background-image: url("images/background.jpg");
+    background: url("images/background.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 #header{
     width: min-content;
     text-align: center;
+    margin: auto;
 }
 
 h1{
@@ -39,15 +40,29 @@ h2{
     font-size: 28px;
 }
 
-#header{
-    margin: auto;
+#content{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
 }
 
-#content{
-    display: inline-block;
+#logos img{
+    width: 50px;
 }
 
 .whiteBox{
-    color: white;
-    width: 30%;
+    background-color: white;
+    width: 25%;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: -1px 1px 5px 15px white;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    min-height: 5%;
+    min-width: 100%;
+    background-color: #ffc600;
 }
